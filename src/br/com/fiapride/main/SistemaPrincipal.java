@@ -8,13 +8,13 @@ public class SistemaPrincipal {
 
         // Instância 1
         PuxadaArticulada minhaPuxadaArticulada = new PuxadaArticulada();
-        minhaPuxadaArticulada.Estrutura = "Ferro";
-        minhaPuxadaArticulada.cargaAtualKG = 100;
+        minhaPuxadaArticulada.setEstrutura("Ferro");
+        minhaPuxadaArticulada.setCargaAtualKG(100);
 
         // Instância 2
         PuxadaArticulada puxadaArticuladaDoPedro = new PuxadaArticulada();
-        puxadaArticuladaDoPedro.Estrutura = "Ferro";
-        puxadaArticuladaDoPedro.cargaAtualKG = 80;
+        puxadaArticuladaDoPedro.setEstrutura("Ferro");
+        puxadaArticuladaDoPedro.setCargaAtualKG(80);
 
         // Usando os métodos
         minhaPuxadaArticulada.aumentarCarga(10);
